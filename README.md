@@ -2,7 +2,9 @@
 
 ![gmacgyver_logo](/static/gdimacgyverlogo.png)
 
-<img align="center" src="/static/gdimacgyverlogo.png">
+<p align="center">
+<img src="/static/gdimacgyverlogo.png">
+</p>
 
 ## Overview 
 
