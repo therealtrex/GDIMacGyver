@@ -25,7 +25,7 @@ Finally in <b>lab 5</b> you will wrap up by exploring some of your ingested data
 
 >[!IMPORTANT]
 >Please make sure you sign out or use an incognito tab when using your AWS console as you do not want to accidentally use your work/personal AWS account and end up with a bill or get in trouble
->TRUST ME, It has happened to people!
+>TRUST ME, it has happened to people!!
 
 Once you have completed this workshop you will end up deploying the following archiecture pattern:
 
