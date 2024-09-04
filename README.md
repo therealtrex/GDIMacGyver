@@ -18,10 +18,14 @@ In this workshop, we will study different solutions to get AWS security and log 
 Finally in <b>lab 5</b> you will wrap up by exploring some of your ingested data in Splunk using SPL and saving that data into a custom dashboard!
 
 >[!NOTE]
->This workshop is expected to take approximately 2-3 hours to complete.<br>
->This workshop is created for target audiences like Cloud Architects, Security Analysts and Splunk Administrators.<br>
->The participants are expected to have a general experience with AWS products and services, along with basic knowledge Splunk, Splunk Apps and running Splunk SPL Queries.<br>
->This workshop is not inteded to be run as part of a joint AWS and Splunk event. These labs should work in your own AWS envirnoemnt <br>
+> -This workshop is expected to take approximately 2-3 hours to complete.<br>
+> -This workshop is created for target audiences like Cloud Architects, Security Analysts and Splunk Administrators.<br>
+> -The participants are expected to have a general experience with AWS products and services, along with basic knowledge Splunk, Splunk Apps and running Splunk SPL Queries.<br>
+> -This workshop is not inteded to be run as part of a joint AWS and Splunk event. These labs should work in your own AWS envirnoemnt <br>
+
+>[!IMPORTANT]
+>Please make sure you sign out or use an incognito tab when using your AWS console as you do not want to accidentally use your work/personal AWS account and end up with a bill or get in trouble
+>TRUST ME, It has happened to people!
 
 Once you have completed this workshop you will end up deploying the following archiecture pattern:
 
