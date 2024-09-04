@@ -1,4 +1,5 @@
-# T-REX presents an AWS / Splunk GDI MacGyver workshop
+# Welcome to an AWS / Splunk GDI MacGyver workshop
+### a T-REX production
 
 <p align="center">
 <img src="/static/gdimacgyverlogo.png">
