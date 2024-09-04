@@ -4,7 +4,7 @@ In this part of the lab you will be setting up and configuring Simple Queue Serv
 
 ### Setup Dead Letter Queue
 - In your AWS Console navigate to the `Simple Queue Service` and click `Create Queue.`
-- From the Create Queue section `enter the name` of your SQS queue as `SplunkWorkshopDeadLetterQueue`
+- From the Create Queue section `enter the name` of your SQS queue as <tab><tab>`SplunkWorkshopDeadLetterQueue`
 
 ![](/static/10_awsaddon/setup_aws/Image_1.png)
 
