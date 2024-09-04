@@ -43,7 +43,7 @@ In this part of the lab you will be adding event notifications to an existing Am
 
 ![image_tag](/static/10_awsaddon/setup_aws/Image_14.png) 
 
-- Copy the `accesskey` & `secretkey` somewhere (eg notepage). These will be used in the next lab to configure your Splunk Add-on for AWS. 
+- Copy the `accesskey` & `secretkey` somewhere (eg notepad). These will be used in the next lab to configure your Splunk Add-on for AWS. 
 
 ![image_tag](/static/10_awsaddon/setup_aws/Image_15.png) 
 
