@@ -1,5 +1,5 @@
-# Welcome to an AWS / Splunk GDI MacGyver workshop
-### a T-REX production
+# Welcome to an AWS / Splunk GDI MacGyver Workshop
+#### a T-REX production
 
 <p align="center">
 <img src="/static/gdimacgyverlogo.png">
