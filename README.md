@@ -1,6 +1,9 @@
-# T-REX presents a AWS / Splunk GDI MacGyver workshop
+# T-REX presents an AWS / Splunk GDI MacGyver workshop
 
 ![gmacgyver_logo](/static/gdimacgyverlogo.png)
+<p align="center">
+  <img src="/static/gdimacgyverlogo.png>
+</p>
 
 ## Overview 
 
