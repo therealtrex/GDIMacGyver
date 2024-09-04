@@ -3,13 +3,13 @@ In this part of the lab you will be setting up and configuring Simple Queue Serv
 
 
 ### Setup Dead Letter Queue
-- In your AWS Console navigate to the <code style="color : cyan">Simple Queue Service</code> and click <code style="color : cyan">Create Queue.</code>
-- From the Create Queue section <code style="color : cyan">enter the name</code> of your SQS queue as <code style="color : cyan">SplunkWorkshopDeadLetterQueue</code>
+- In your AWS Console navigate to the `Simple Queue Service` and click `Create Queue.`
+- From the Create Queue section `enter the name` of your SQS queue as `SplunkWorkshopDeadLetterQueue`
 
 ![](/static/10_awsaddon/setup_aws/Image_1.png)
 
-- Under the configuration section <code style="color : cyan">set visability timeout to 5 minutes</code>
-- Leave remaining defaults and <code style="color : cyan">click Create Queue</code>
+- Under the configuration section `set visability timeout to 5 minutes`
+- Leave remaining defaults and `click Create Queue`
 
 ![image_tag](/static/10_awsaddon/setup_aws/Image_2.png)
 
@@ -18,28 +18,28 @@ In this part of the lab you will be setting up and configuring Simple Queue Serv
 
 ::alert[Before we setupo our second SQS queue. We need to copy the S3 bucket ARN where our Config files are being sent.]{header="Note"}
 
-- From AWS console in a **new TAB** search for and **select S3**.  
-- Search for our AWS Config bucket by entering in **team-template-awsconfig** to the search bar. 
+- From AWS console in a `new TAB` search for and `select S3.`  
+- Search for our AWS Config bucket by entering in `team-template-awsconfig` to the search bar. 
 
 ![s3_bucket](/static/10_awsaddon/setup_aws/s3_bucket.png)
 
-- Click this bucket name followed by the **Properties** tab. 
+- Click this bucket name followed by the `Properties` tab. 
 - Copy the ARN of the S3 bucket to use in the Access Policy later.
 
 ![s3_bucketarn](/static/10_awsaddon/setup_aws/s3_bucketarn.png)
 
-- From our other SQS tab earlier, select **Queus** followed by **Create queue** to create another SQS Queue from the SQS page in the AWS Console
+- From our other SQS tab earlier, select `Queus` followed by `Create queue` to create another SQS Queue from the SQS page in the AWS Console
 - Name this queue `SplunkWorkshopQueue`
 
 ![image_tag](/static/10_awsaddon/setup_aws/Image_6.png)
 
-- Under configuration **set the timeout to 5 minutes**.
+- Under configuration `set the timeout to 5 minutes.`
 
 ![image_tag](/static/10_awsaddon/setup_aws/Image_2.png) 
 
-- Scroll down to the **Accesss Policy** section to modify the default access policy for this SQS queue. 
-- **Select Advanced** for Access Policy Method. 
-- Input the following JSON Policy and *insert* the **AWS account ID** (in two sections) and **S3 Bucket ARN** you copied above
+- Scroll down to the `Accesss Policy` section to modify the default access policy for this SQS queue. 
+- `Select Advanced` for Access Policy Method. 
+- Input the following JSON Policy and *insert* the `AWS account ID` (in two sections) and `S3 Bucket ARN` you copied above
 
 ```json
 {
@@ -70,9 +70,9 @@ In this part of the lab you will be setting up and configuring Simple Queue Serv
 
 ![image_tag](/static/10_awsaddon/setup_aws/Image_7.png) 
 
-- Under Dead-letter queue **Select enabled**
-- Click the drop down and **select the dead letter queue** we creted earlier in the lab. 
-- Leave remaining defaults and **click Create Queue**
+- Under Dead-letter queue `Select enabled`
+- Click the drop down and `select the dead letter queue` we creted earlier in the lab. 
+- Leave remaining defaults and `click Create Queue`
 
 ![image_tag](/static/10_awsaddon/setup_aws/Image_8.png) 
 
