@@ -13,7 +13,7 @@ For this workshop, we developed a serverless application called `splunk-aws-lamb
     -  `SplunkSourceType`: Enter source type `aws:cloudwatchlogs:vpcflow` for VPC Flow Logs.
     -  `ELBCookieName`: Enter `AWSELB` for ELB cookie name.
     -  `SplunkHttpEventCollectorToken`: Enter your HEC token created earlier in the lab.
-    -  `SplunkHttpEventCollectorURL`: Enter the Endpoint URL copied earlier for Splunk eg example https://<splunkcloud-instanceid>.splunk.show:8088 
+    -  `SplunkHttpEventCollectorURL`: Enter the Endpoint URL copied earlier for Splunk eg example `https://<splunkcloud-instanceid>.splunk.show:8088`
   
 ![parameters](/static/30_lambda/parameters.png)
 
