@@ -11,10 +11,11 @@ This first part of the lab will take you through configuring a Splunk Http Event
 - Give your HEC token a name Example: `vpcflow-hec`
 - Leave Enable Indexer Acknowledgement `Unticked`
 
-![image004](/static/30_lambda/create-hec.png)
-
 >[!NOTE]
 >For this lab we will `NOT` be using the HEC acknowlegement feature. Turning this on may cause the lab to fail.
+
+![image004](/static/30_lambda/create-hec.png)
+
 
 - Leave remaining defaults and click `next` at the top of the screen. 
 - For sourcetype click `select` and then click `Select Source Type`
@@ -25,7 +26,7 @@ This first part of the lab will take you through configuring a Splunk Http Event
 ![image004](/static/30_lambda/create-hec-2.png)
 
 Click `Submit` to create HEC token.
-We shoudl now `Copy your HEC token to use later` eg notepad.
+Now `Copy your HEC token to use later` eg notepad.
 
 ![image005](/static/30_lambda/Image005.png)
 
