@@ -5,7 +5,7 @@ Its time to now validate that the streaming Amazon Data Firehose data for CloudT
 - From the Search bar enter in the search below:
 
 ```text
-    index="aws-data" sourcetype="aws:cloudtrail"
+index="aws-data" sourcetype="aws:cloudtrail"
 ```
 
 >[!NOTE]
@@ -13,6 +13,6 @@ Its time to now validate that the streaming Amazon Data Firehose data for CloudT
 
 ![image004](/static/20_firehose/Image024.png)
 
-##### Congratulations! You have now sucessfully configured your Splunk Add-on for AWS and have instance metadata & AWS Config data in Splunk. 
+#### Congratulations! You have now sucessfully configured your Splunk Add-on for AWS and have instance metadata & AWS Config data in Splunk. 
 
 ### Click <a>[HOME](/README.md)</a> to now choose another lab or click <a>[Back](/content/Lab2_firehose/setup_cloudwatch_subscriptionfilter.md) to go back to the previous page</a>
