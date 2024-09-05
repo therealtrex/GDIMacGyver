@@ -1,4 +1,4 @@
-## Lab 3: Setting up VPC flow logs to stream data into Splunk using Amazon Lambda PUSH method.
+# Lab 3: Setting up VPC flow logs to stream data into Splunk using Amazon Lambda PUSH method.
 In this workshop, you will learn how to deploy a Lambda function to ingest AWS log data into Splunk over Http Event Collector (HEC) endpoint. For this use case, we will ingest [VPC Flow Logs](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html) into Splunk.
 
 This lab will go through the following: 
