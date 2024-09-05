@@ -2,7 +2,7 @@
 In this part of the lab you will be setting up and configuring Amazon Simple Queue Service (SQS) queues. These will be used by the Splunk Add-on for AWS to ingest the AWS Config Data. 
 
 
-### Step One: Setup Dead Letter Amazon SQS Queue (DLQ)
+### Setup Dead Letter Amazon SQS Queue (DLQ)
 
 >[!TIP]
 >I tend to setup my Dead Letter Queue first as this saves time when setting up the primary queue later as you can assign its DLQ at the same time when creating.  
@@ -18,7 +18,7 @@ In this part of the lab you will be setting up and configuring Amazon Simple Que
 ![image_tag](/static/10_awsaddon/setup_aws/Image_2.png)
 
 
-### Step Two: Setup primary Amazon SQS Queue
+### Setup primary Amazon SQS Queue
 
 >[!IMPORTANT]
 >Before we setup our primary SQS queue. We need to copy the S3 bucket ARN where our Config files are being sent.
