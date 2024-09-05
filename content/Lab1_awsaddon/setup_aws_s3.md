@@ -54,6 +54,6 @@ In this part of the lab you will be adding event notifications to an existing Am
 ![image_tag](/static/10_awsaddon/setup_aws/Image_15.png) 
 
 
-##### Congratulations, you have setup the S3 Event Notifications successfully. Lets move on to next step to setup SQS-based-S3 input on Splunk Add-on
+#### Congratulations, you have setup the S3 Event Notifications successfully. Lets move on to next step to setup SQS-based-S3 input on Splunk Add-on
 
 ### Click <a>[Next](/content/Lab1_awsaddon/setup_add_on.md)</a> to continue or click <a>[Back](/content/Lab1_awsaddon/setup_aws_sqs.md) to go back to the previous page</a>
