@@ -63,10 +63,10 @@ On the top right corner of the screen select `Save As -> New Dashboard`
 ![image_tag](/static/50_data_exploration/Image_6.png)  
 
 On the `Save Panel to New Dashboard` dialog. Select and Enter the following values:<br>
-    - Dashboard Title: `AWS GDI Intro Dashboard`
-    - Select Dashboard Type: `Dashboard Studio`
-    - Style Selection: `Grid`
-    - Panel Title: `Outliers`
+    - Dashboard Title: `AWS GDI Intro Dashboard`<br>
+    - Select Dashboard Type: `Dashboard Studio`<br>
+    - Style Selection: `Grid`<br>
+    - Panel Title: `Outliers`<br>
   
 Click `Save To Dashboard`, then click `View Dashboard` 
 
