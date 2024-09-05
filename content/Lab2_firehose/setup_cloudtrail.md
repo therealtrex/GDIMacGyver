@@ -8,7 +8,7 @@ This lab will take you through setting up a CloudTrail trail to stream managemen
 
 - From the S3 menu select `Create Bucket`
 - Select your `AWS region` as the current region where you are doing this workshop. Not sure? Ask your instructor. (Example: `us-east-1`)
-- The bucket name has to be unique. Enter bucket name as `cloudtrail-\<aws-region\>-\<aws-account-number\>` 
+- The bucket name has to be unique. Enter bucket name as `cloudtrail-<aws-region>-<aws-account-number>` 
 
     Example: If your region is us-east-1 and your AWS account id is 123456789012 then enter `cloudtrail-us-east-1-123456789012` as bucket name. Example below.
 
