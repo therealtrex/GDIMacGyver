@@ -22,7 +22,7 @@ For this workshop, we developed a serverless application called `splunk-aws-lamb
 
 ![physicalid](/static/30_lambda/physical_id.png)
 
->{!NOTE]
+>[!NOTE]
 >You can verify your deployment worked correctly by selecting the `Deployments` tabe and checking under the deployment history is says `Create complete`. If this has failed you will need to verify why it failed and try again.
 
 ##### Congratulations on completing this part of the lab. Now we have setup our lambda we can configure the subscription filter for VPC Flow logs log group to trigger the lambda function. 
