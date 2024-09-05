@@ -25,7 +25,7 @@ See example below
 - Click `Next`. Enter any tags and Click `Next`.
 - Review the configurations and `click Create rule` to create the rule.
   
-##### Congrats you have now successfully created EventBridge destination for Splunk and a Rule to ingest GuardDuty Findings as events into Splunk. 
+#### Congrats you have now successfully created EventBridge destination for Splunk and a Rule to ingest GuardDuty Findings as events into Splunk. 
 
 >[!NOTE]
 >It may take up to 15 minutes to start recieving data into Splunk from Amazon GuardDuty. Feel free to continue onto next part of validation but data may not be present yet. 
