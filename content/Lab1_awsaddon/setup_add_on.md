@@ -1,7 +1,7 @@
 # Setup the Splunk add-on for AWS
 In this lab you will set up the Splunk Add-on for AWS to begin ingesting data into Splunk from AWS using the SQS based S3 and Meta Data API calls
 
->[!INFO]
+>[!NOTE]
 >You will have noticed up until this point we have not configured anything in AWS in regards to the Ec2 Metadata. This is because we will us a direct API PULL request to the AWS ec2 machine using our AWS IAM user. 
 
 ### Obtain AWS IAM User Credentials for Splunk Add-on for AWS to use
@@ -97,6 +97,6 @@ Next we want to configure AWS Config input.
 >Well done on setting up your two inputs. Just a reminder in case you didn't read this earlier. AWS config does not log frequently! AWS Config has two logging pieces. The configuration recorder and configuration snapshots. The Recorder when setup in continuous mode does continuous recording but will only log to S3 every six hours. The configuration snapshot capability of AWS Config will log to S3 on either a 1,3,6,12 or 24 hour frequewcy (we have setup 1hr for this lab). This means during this lab you may have to wait for a full hour to see anythign in Splunk. It is recommended you completed the lab and then we will check on it later during the day to make sure logs are coming in ok. More Info on this <a>[HERE](https://aws.amazon.com/blogs/mt/configuration-history-configuration-snapshot-files-aws-config/)</a>.
 
 
-##### Congratulations! You have completed setting up your Splunk Add-on for AWS. AWS Config data & Instance Metadata have now been added and is being sent to Splunk. Proceed to the next part of the lab to validate Splunk is receiving data from AWS. 
+#### Congratulations! You have completed setting up your Splunk Add-on for AWS. AWS Config data & Instance Metadata have now been added and is being sent to Splunk. Proceed to the next part of the lab to validate Splunk is receiving data from AWS. 
 
 ### Click <a>[Next](/content/Lab1_awsaddon/validate_data.md)</a> to continue or click <a>[Back](/content/Lab1_awsaddon/setup_aws_s3.md) to go back to the previous page</a>
