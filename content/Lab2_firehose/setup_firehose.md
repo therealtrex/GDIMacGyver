@@ -54,4 +54,4 @@ In this part of the lab we will setup the Amazon Data Firehose to stream CloudTr
 
 ##### Congratulations on completing this part of the lab. Now that Amazon Data Firehose is setup. We can setup a CloudWatch subscription filter to use this new Firehose stream. 
 
-### Click <a>[Next](/content/Lab2_firehose//setup_cloudwatch_subscriptionfilter.md)</a> to continue or click <a>[Back](/content/Lab2_firehose/setup_cloudtrail.md) to go back a page.</a>
+### Click <a>[Next](/content/Lab2_firehose/setup_cloudwatch_subscriptionfilter.md)</a> to continue or click <a>[Back](/content/Lab2_firehose/setup_cloudtrail.md) to go back a page.</a>
