@@ -22,9 +22,9 @@ In this part of the lab we will setup the CloudWatch subscription filter on the 
 
 ![image021](/static/20_firehose/Image021.png)
 
-- Under `subscription filter name`, name as: `cloudtrail-\<aws-region\>-\<aws-account-number\>-filter`
+- Under `subscription filter name`, name as: `cloudtrail-<aws-region>-<aws-account-number>-filter`
 - Leave remaining defaults and click `Start Streaming`
 
-##### Congratulations, now that you have setup CloudTrail, Amazon DataFirehose and the CloudWatch subscription filter. All that is left to do is verify the data is streaming into Splunk. 
+#### Congratulations, now that you have setup CloudTrail, Amazon DataFirehose and the CloudWatch subscription filter. All that is left to do is verify the data is streaming into Splunk. 
 
 ### Click <a>[Next](/content/Lab2_firehose/validate_data.md)</a> to continue or click <a>[Back](/content/Lab2_firehose/setup_firehose.md) to go back a page.</a>
