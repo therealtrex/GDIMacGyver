@@ -44,10 +44,11 @@ In this part of the lab you will be setting up and configuring Amazon Simple Que
 
 - Scroll down to the `Accesss Policy` section to modify the default access policy for this SQS queue. 
 - `Select Advanced` for Access Policy Method. 
-- Input the following JSON Policy below making sure to insert the `<AWS account ID>` (in two sections) and `<S3 Bucket ARN>` you copied above.
+- Input the following JSON Policy below making sure to insert the `<AWS-Region>`, `<AWS account ID>` (in two sections) and `<S3 Bucket ARN>` you copied above.
 
 >[!TIP]
->You can copy your AWS account id by selecting the drop down arror top right hand side of your AWS console. Then click the copy button next to the Account ID:<xxxx-xxxx-xxxx>
+>You can copy your AWS account id by selecting the drop down arror top right hand side of your AWS console. Then click the copy button next to the Account ID:<xxxx-xxxx-xxxx> <br>
+>You can also select your region but click the Region drop down arror top right hand side (next to account one) and copy the text on the right hand side of current region (eg us-east-1)
 
 ```json
 {
@@ -61,7 +62,7 @@ In this part of the lab you will be setting up and configuring Amazon Simple Que
         "Service": "s3.amazonaws.com"
       },
       "Action": "SQS:SendMessage",
-      "Resource": "arn:aws:sqs:us-east-1:<Insert-Account-ID>:SplunkWorkshopQueue",
+      "Resource": "arn:aws:sqs:<Insert-AWS-Region>:<Insert-Account-ID>:SplunkWorkshopQueue",
       "Condition": {
         "StringEquals": {
           "aws:SourceAccount": "<Insert-Account-ID>"
