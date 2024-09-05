@@ -43,7 +43,7 @@ In this part of the lab we will setup the Amazon Data Firehose to stream CloudTr
 ![image023](/static/20_firehose/Image023.png)
 
 - For `backup settings` leave `failed events only` selected
-- Select `browse` and select the bucket `splunk-backup-bucket-\<Your AWS Account NUMBER\>` for a `failed events`
+- Select `browse` and select the bucket `splunk-backup-bucket-<Your AWS Account NUMBER>` for a `failed events`
 
 ![image018](/static/20_firehose/Image018.png)
 
