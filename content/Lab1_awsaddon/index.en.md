@@ -7,6 +7,8 @@ This lab will go through the following:
 - Configure the Splunk Add-on for AWS to use authenticated API calls to retieve AWS EC2 metadata
 - Lastly, configure the Splunk Add-on for AWS to monitor the SQS queue and fetch the data from the S3 bucket
 
+>[!IMPORTANT]
+>I will call this out twice as its important. AWS config does not log frequently! AWS Config has two logging pieces. The configuration recorder and configuration snapshots. The Recorder when setup in continuous mode does continuous recording but will only log to S3 every six hours. The configuration snapshot capability of AWS Config will log to S3 on either a 1,3,6,12 or 24 hour frequewcy (we have setup 1hr for this lab). This means during this lab you may have to wait for a full hour to see anythign in Splunk. It is recommended you completed the lab and then we will check on it later during the day to make sure logs are coming in ok. More Info on this <a>[HERE](https://aws.amazon.com/blogs/mt/configuration-history-configuration-snapshot-files-aws-config/)</a>.
 
 ## Architecture Diagram
 Below is the architecture pattern used for this lab:
