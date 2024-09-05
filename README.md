@@ -43,5 +43,5 @@ Below are the links to each of the labs
 
 <a>[LAB4 - Amazon EventBridge notification using native EventBridge PUSH method ](/content/Lab4_eventbridge/index.en.md) </a>
 
-<a>[LAB5 - Explore our data using Splunk ](/content/Lab5_data_exploration/Lab%205.1.md) </a>
+<a>[LAB5 - Explore our data using Splunk ](/content/Lab5_data_exploration/exploring_data_1.md) </a>
 
