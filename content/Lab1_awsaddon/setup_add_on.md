@@ -61,7 +61,7 @@ You should now see a new configuration named `SplunkWorkshopAWS`. See example be
 
 - Click `Add` when done.
 
->[!INFO]
+>[!NOTE]
 >AWS EC2 Metadata is now being sent to Splunk. We will validate this later on in the lab.
 
 
