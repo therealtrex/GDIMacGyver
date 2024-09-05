@@ -7,10 +7,10 @@ This lab will go through the following:
 - Setup Eventbridge Rule for Amazon GuardDuty events
 - Validate data is streaming into Splunk from Amazon GuardDuty
 
-<!-->
+<!--->
 >[!NOTE]
 >As EventBridge destination endpoint uses HEC (unacknowledged) we will re-use the HEC token created in <a>[Lab3](/content/Lab3_lambda/index.en.md)</a>. If you have not done Lab 3 yet then either do this or at least run the first steps on <a>[creating the HEC token](/content/Lab3_lambda/setup_splunk.md)</a> before starting this lab.
--->
+--->
 
 ### Architecture Diagram 
 Below is the high level architecture that you will deploy for this lab:
