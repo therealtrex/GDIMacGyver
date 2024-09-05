@@ -20,7 +20,7 @@ In this part of the Lab we will setup the EventBridge Targets to configure Splun
   - Example: If your HEC token is 72e88f28-9afd-4c52-96fe-16b27a67067e then enter `Splunk 72e88f28-9afd-4c52-96fe-16b27a67067e`.
 
 >[!TIP]
->Put this in notepad first and then copy into the field to make it easier and reduce change of error as the field is *** out when you paste it in
+>Put this in notepad first and then copy into the field to make it easier and reduce chance of errors as the field are `***` out when you paste it in
   
 ![event_connection](/static/40_eventbridge/eventbridge_connection.png)
 
