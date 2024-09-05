@@ -43,7 +43,7 @@ In this part of the lab we will setup the Amazon Data Firehose to stream CloudTr
 ![image023](/static/20_firehose/Image023.png)
 
 - For `backup settings` leave `failed events only` selected
-- Select `browse` and select the bucket `splunk-backup-bucket-<Your AWS Account NUMBER>` for a `failed events`
+- Select `browse` and select the bucket `splunk-backup-bucket-<Your AWS Account NUMBER>` for `failed events`
 
 ![image018](/static/20_firehose/Image018.png)
 
@@ -52,6 +52,6 @@ In this part of the lab we will setup the Amazon Data Firehose to stream CloudTr
 - Select the pre-configured role called `SplunkGDIWorkshopFirehoseRole`
 - `Leave remaining defaults` and click `Create Firehose stream.`
 
-##### Congratulations on completing this part of the lab. Now that Amazon Data Firehose is setup. We can setup a CloudWatch subscription filter to use this new Firehose stream. 
+#### Congratulations on completing this part of the lab. Now that Amazon Data Firehose is setup. We can setup a CloudWatch subscription filter to use this new Firehose stream. 
 
 ### Click <a>[Next](/content/Lab2_firehose/setup_cloudwatch_subscriptionfilter.md)</a> to continue or click <a>[Back](/content/Lab2_firehose/setup_cloudtrail.md) to go back a page.</a>
