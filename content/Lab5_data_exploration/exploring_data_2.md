@@ -1,15 +1,15 @@
 ﻿# Adding an additional panel to our dashboard
 Continuing on, let’s make this dashboard a little more useful and add another panel. 
 
-- Click on the `Search tab` at the top of the screen to get back to the search screen. `Copy and paste the below search`, with the `time picker set to the last 4 hours`
+-Click on the `Search tab` at the top of the screen to get back to the search screen. `Copy and paste the below search`, with the `time picker set to the last 4 hours`
 
 ```text
-`index="aws-data" sourcetype=aws:cloudtrail eventName=Create* OR eventName=Run* OR eventName=Attach* 
+index="aws-data" sourcetype=aws:cloudtrail eventName=Create* OR eventName=Run* OR eventName=Attach* 
 | stats earliest(_time) as earliest latest(_time) as latest by src_ip, eventName 
 | eval maxlatest=now() 
 | eval peergroup_name="None", isOutlier=case(len(peergroup_name)>0 , if(isnotnull(earliest) AND earliest>=relative_time(maxlatest,"-1d@d") AND isnull(peerpast),1,0), earliest >= relative_time(maxlatest, "-1d@d"), 1, 1=1, 0) 
 | table "src_ip" "eventName", earliest, latest, maxlatest, isOutlier 
-| convert ctime(earliest) ctime(latest) ctime(maxlatest)`
+| convert ctime(earliest) ctime(latest) ctime(maxlatest)
 ```
 
 >[!NOTE]
@@ -32,9 +32,9 @@ Now we will create a world map based on non US-based countries
 - Start by entering the following search:
 
 ```text
-`index="aws-data" sourcetype="aws:cloudwatchlogs:vpcflow" 
+index="aws-data" sourcetype="aws:cloudwatchlogs:vpcflow" 
 | iplocation src_ip 
-| search Country!="United States" `
+| search Country!="United States"
 ```
 >[!NOTE]
 >The search just retrieved all entries in the `aws-data` index with the `aws:cloudwatchlogs:vpcflow` sourcetype, then piped those results into an `iplocation command`. The `iplocation command` extracts location information from IP addresses. In our case from the `src_ip` field and adds the location fields to our search results. Lastly, we also omitted traffic originating from the United States, since we are interested in countries that aren’t in the US. 
@@ -44,11 +44,11 @@ Now we will create a world map based on non US-based countries
 - Let’s finish our search by adding in the `geom command`, which adds a field containing geographic data structures that are used to create choropleth map visualizations. `Copy and paste the below search into the search bar` (overwriting the previous search).
 
 ```text
-`index="aws-data" sourcetype="aws:cloudwatchlogs:vpcflow" 
+index="aws-data" sourcetype="aws:cloudwatchlogs:vpcflow" 
 | iplocation src_ip 
 | search Country!="United States" 
 | stats count by Country 
-| geom geo_countries featureIdField="Country"`
+| geom geo_countries featureIdField="Country"
 ```
 
 The results should look something like the image below. At the moment, this doesn’t seem all that useful - and maybe looks a little complicated!
