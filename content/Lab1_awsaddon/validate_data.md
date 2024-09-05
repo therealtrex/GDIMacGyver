@@ -15,9 +15,8 @@ In this lab you will validate if the data is ingested & indexed into Splunk succ
 
 
 - Verify that there are *2* sourcetypes that appear in the search results. The sourcetypes are:
-
-* `aws:metadata`
-* `aws:config`
+    `aws:metadata`
+    `aws:config`
 
 ![image_tag](/static/10_awsaddon/validate_data/Image_2.png)
 
