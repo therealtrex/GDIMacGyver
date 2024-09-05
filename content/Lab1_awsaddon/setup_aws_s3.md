@@ -9,7 +9,7 @@ In this part of the lab you will be adding event notifications to an existing Am
 ![image_tag](/static/10_awsaddon/setup_aws/Image_9.png) 
 
 
-- Scroll down until you get to the Event Notifications section and select Create `Event Notification` 
+- Scroll down until you get to the Event Notifications section and select `Create Event Notification` 
 
 
 ![image_tag](/static/10_awsaddon/setup_aws/Image_10.png) 
@@ -30,9 +30,15 @@ In this part of the lab you will be adding event notifications to an existing Am
 ![image_tag](/static/10_awsaddon/setup_aws/Image_12.png) 
 
 >[!NOTE]
->In the next section we will obtain the AWS IAM user credentials which have been pre-configured to use for the Splunk AWS add-on. This user has the required policies attached to interact with AWS services we need for these labs. For more information on Splunk required policies/permissions see <a>[HERE](https://splunk.github.io/splunk-add-on-for-amazon-web-services/ConfigureInputs/) </a>
+>If you get an error like the screenshot below when clicking save changes then you have an issue with your SQS primary queue access policy. Go back to your primary SQS queue and edit the access policy to be correct. Re-check your steps earlier in this lab and make sure you edited the 3 fields required in the access policy correctly.
+
+![](/static/10_awsaddon/setup_aws/setups3notification-errorscreenshot.png)
+
 
 ### Obtain AWS Credentials to Configure Splunk Add-on for AWS
+>[!NOTE]
+>In this section we will obtain the AWS IAM user credentials which have been pre-configured to use for the Splunk AWS add-on. This user has the required policies attached to interact with AWS services we need for these labs. For more information on Splunk required policies/permissions see <a>[HERE](https://splunk.github.io/splunk-add-on-for-amazon-web-services/ConfigureInputs/) </a>
+
 
 - In the AWS Console search for the `Secrets Manager` service. 
 - Click on the `SplunkSecrets` secret name. 
