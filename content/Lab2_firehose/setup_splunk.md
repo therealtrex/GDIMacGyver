@@ -26,6 +26,6 @@ This first part of the lab will take you through configuring a Http Event Collec
 
 - Before moving onto the the next part of the lab. We want to get your Splunk URL. `Copy` your `Splunk Cloud URL` to use later eg scv-shw-87bea8f2733e0f.stg.splunkcloud.com
 
-##### Congratulations on completing this part of the lab. Now we have a Splunk index for storing data and a HEC token we can move onto AWS to start configuring our services there.
+#### Congratulations on completing this part of the lab. Now we have a Splunk index for storing data and a HEC token we can move onto AWS to start configuring our services there.
 
 ### Click <a>[Next](/content/Lab2_firehose/setup_cloudtrail.md)</a> to continue or click <a>[Back](/content/Lab2_firehose/index.en.md) to go back a page.</a>
