@@ -24,7 +24,7 @@ In this part of the lab we will setup the Amazon Data Firehose to stream CloudTr
 
 - In destination settings. Enter your `Splunk cluster endpoint.`
 
-  >[!WARNING]
+  >[!IMPORTANT]
   >Include the indexer port 8088 if you use Splunk Show instance. Ex: `https://i-instanceid.splunk.show:8088`
 
 - Leave `RAW endpoint` selected.
