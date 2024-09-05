@@ -34,5 +34,6 @@ Once you have completed this workshop you will end up deploying the following ar
 ## Time to get to get started!
 Below are the links to each of the labs
 
-<a>[LAB1 - AWS add-on PULL method](/content/Lab1_awsaddon/index.en.md) </a>
+<a>[LAB1 - EC2 metadata and AWS Config logs to Splunk via AWS add-on PULL method](/content/Lab1_awsaddon/index.en.md) </a>
+<a>[LAB2 - CloudTrail logs to Splunk via Amazon Data Firehose PUSH method ](/content/Lab2_firehose/index.en.md) </a>
 
