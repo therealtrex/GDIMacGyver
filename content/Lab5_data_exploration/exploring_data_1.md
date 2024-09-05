@@ -4,12 +4,12 @@ In this lab we will take some of the ingested data from the previous 4 labs and 
 ## Basic Searching
 First off let's quickly search our data and have a basic look at what's coming in already. 
 
-- From your Splunk Console, `select Apps` followed by `Search and reporting`
+- From your Splunk Console, select `Apps` followed by `Search and reporting`
 - Set the time range picker to `4 hours`
 - From the Search bar enter in the search below:
 
 ```text
-index=”aws-data”
+index="aws-data"
 ```
 The results should look something like the below image. 
 
@@ -32,12 +32,12 @@ Now we are familar with the layout and data. Let's build our first dashboard. Bu
 - Let’s start with the search. Copy the below search string into the search bar and keep the time range for the last 4 hours.
 
 ```text
-`index="aws-data"  sourcetype=aws:cloudtrail eventName=Create* OR eventName=Run* OR eventName=Attach* 
+index="aws-data"  sourcetype=aws:cloudtrail eventName=Create* OR eventName=Run* OR eventName=Attach* 
 | stats earliest(_time) as earliest latest(_time) as latest by src_ip, eventName 
 | eval maxlatest=now() 
 | eval peergroup_name="None", isOutlier=case(len(peergroup_name)>0 , if(isnotnull(earliest) AND earliest>=relative_time(maxlatest,"-1d@d") AND isnull(peerpast),1,0), earliest >= relative_time(maxlatest, "-1d@d"), 1, 1=1, 0) 
 | where isOutlier=1 
-| stats count`
+| stats count
 ```
 
 Your results should look something like below:
@@ -49,7 +49,7 @@ Your results should look something like below:
 
 Since the result of this search is a number, this is a great candidate for a single value visualization. 
 
-- Click on the `Visualization tab`, then select the `Single Value` option. See example below (your number will likely be different).
+- Click on the `Visualization tab`, then select `Column Chart` and then the `Single Value` option. See example below (your number will likely be different).
 
 ![image_tag](/static/50_data_exploration/Image_4.png)  
 
@@ -62,13 +62,13 @@ On the top right corner of the screen select `Save As -> New Dashboard`
   
 ![image_tag](/static/50_data_exploration/Image_6.png)  
 
-On the `Save Panel to New Dashboard` dialog, `enter/select` the following values:
+On the `Save Panel to New Dashboard` dialog. Select and Enter the following values:<br>
     - Dashboard Title: `AWS GDI Intro Dashboard`
     - Select Dashboard Type: `Dashboard Studio`
     - Style Selection: `Grid`
     - Panel Title: `Outliers`
   
-Click `Save To Dashboard`, then click `Go To Dashboard` 
+Click `Save To Dashboard`, then click `View Dashboard` 
 
 ![image_tag](/static/50_data_exploration/Image_7.png)  
 
