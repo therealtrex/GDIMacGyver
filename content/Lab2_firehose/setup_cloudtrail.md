@@ -59,6 +59,6 @@ This lab will take you through setting up a CloudTrail trail to stream managemen
 
 ![image013](/static/20_firehose/Image013.png)
 
-##### Congratulations on completing this part of the lab. Now that CloudTrail is configured correctly, we will move onto creating the Firehose Stream to Splunk.
+#### Congratulations on completing this part of the lab. Now that CloudTrail is configured correctly, we will move onto creating the Firehose Stream to Splunk.
 
 ### Click <a>[Next](/content/Lab2_firehose/setup_firehose.md)</a> to continue or click <a>[Back](/content/Lab2_firehose/setup_splunk.md) to go back a page.</a>
