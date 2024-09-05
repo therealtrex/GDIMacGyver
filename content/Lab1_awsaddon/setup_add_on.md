@@ -1,60 +1,57 @@
----
-title: "Lab 3.3 - Setup Splunk Add-on for AWS"
-chapter: true
-weight: 43
----
+# Setup the Splunk add-on for AWS
+In this lab you will set up the Splunk Add-on for AWS to begin ingesting data into Splunk from AWS using the SQS based S3 and Meta Data API calls
 
-
-## Overview
-In this lab you will set up the Splunk Add-on for AWS to begin ingesting data into Splunk. 
+>[!INFO]
+>You will have noticed up until this point we have not configured anything in AWS in regards to the Ec2 Metadata. This is because we will us a direct API PULL request to the AWS ec2 machine using our AWS IAM user. 
 
 ### Obtain AWS IAM User Credentials for Splunk Add-on for AWS to use
-- In a new tab from your AWS console. Search for and **Secrets Manager**
-- From the Secrets page select **SplunkSecrets**
-- From the Secret value section select the button **Retrieve secret value**
+- In a new tab from your AWS console. Search for and `Secrets Manager`
+- From the Secrets page select `SplunkSecrets`
+- From the Secret value section select the button `Retrieve secret value`
 
 
 ![image_tag](/static/10_awsaddon/setup_addon/Image_10.png)
 
-- Leave this tab open or copy the **accesskey** and **secretkey** somewhere to use for later
+- Leave this tab open or copy the `accesskey` and `secretkey` somewhere to use for later
 
 ### Configure Splunk Add-on for AWS
-- Navigate to your Splunk environment and log into Splunk.  
-- From the Splunk home screen **select Splunk Add-on for AWS** located on the left navigation bar.
+- In a new tab navigate to your Splunk environment and log into Splunk.  
+- From the Splunk home screen `select Splunk Add-on for AWS` located on the left navigation bar. See example below.
 
 
 ![image_tag](/static/10_awsaddon/setup_addon/Image_1.png)
 
 
-- Navigate to the **Configuration** tab and click **Add** to add a new AWS account to the Add-on. 
+- Navigate to the `Configuration` tab and click `Add` to add a new AWS account to the Add-on. 
 
 
 ![image_tag](/static/10_awsaddon/setup_addon/Image_2.png)
 
 
-*Enter the following information to the **Add Account** window*:
-
+In the add account window enter the following information:
 - Enter a name of: `SplunkWorkshopAWS`
-- Paste in the **Key ID** and **Secret Key** copied earlier from AWS Secrets Manager
-- Leave Region Category as Global and **click Add** when done.
+- Paste in the `Key ID` and `Secret Key` copied earlier from AWS Secrets Manager
+- Leave Region Category as Global.
+- click `Add` when done.
 
-You should now see a new configuration named **SplunkWorkshopAWS**
+You should now see a new configuration named `SplunkWorkshopAWS`. See example below.
 
 ![image_tag](/static/10_awsaddon/setup_addon/Image_3.png)
 
 
 ### Add Metadata Input
-Navigate to the **Inputs** tab and click **Create New Input** and select **Metadata**. 
+- Navigate to the `Inputs` tab 
+- Click `Create New Input` and select `Metadata`. 
 
 
 ![image_tag](/static/10_awsaddon/setup_addon/Image_4.png)
 
 
 - On the Add Metadata screen enter in a name of: `SplunkWorkshopMetadata`
-- Select the **SplunkWorkshopAWS account** from the list you created earlier.
-- From AWS Regions select **US East (N. Virginia)**
-- Under APIs/Internal (in seconds), select **Clear All**
-- Expand the **EC2 arrow** and **select all EC2 options** while also changing the **frequency from 3600 to 300**
+- Select the `SplunkWorkshopAWS` account you created earlier.
+- From AWS Regions select the `region` you are using for this lab (not sure? Ask your instructor) eg US East (N. Virginia)
+- Under APIs/Internal (in seconds), select `Clear All`
+- Expand the `EC2 arrow` and `select all EC2 options` while also changing the `frequency from 3600 to 300`. See example below
 
 ![image_tag](/static/10_awsaddon/setup_addon/Image_5.png) 
 
@@ -62,33 +59,40 @@ Navigate to the **Inputs** tab and click **Create New Input** and select **Metad
 
 ![image_tag](/static/10_awsaddon/setup_addon/Image_6.png)
 
-- Click **Add** when done.
+- Click `Add` when done.
 
-::alert[AWS EC2 Metadata is now being sent to Splunk. We will validate this later on in the lab.]{header="Note"}
+>[!INFO]
+>AWS EC2 Metadata is now being sent to Splunk. We will validate this later on in the lab.
 
 
 ### Add Config Input
 Next we want to configure AWS Config input. 
-- From the **Inputs** tab, click **Create New Input** and select **Config > SQS-Based-S3**. 
+
+- From the `Inputs` tab, click `Create New Input` and select `Config > SQS-Based-S3`. 
 
 
 ![image_tag](/static/10_awsaddon/setup_addon/Image_7.png)
 
 - Enter in the Name of: `SplunkWorkshopConfig`
-- Select the same account we selected earlier: **SplunkWorkshopAWS**
-- Select **US East (N. Virginia)** as the AWS Region setting. 
+- Select the same account we selected earlier: `SplunkWorkshopAWS`
+- Select the same `region` we used in the previous step for EC2 metadata. eg US East (N. Virginia). 
 - Under SQS Queue Name, select `SplunkWorkshopQueue` that we created earlier. 
-- **Untick** the **Signature Validate All Events** option
+- `Untick` the `Signature Validate All Events` option
 - Set the index as `aws-data`
-- Leave remainng defaults and click **Add**
+- Leave remainng defaults and click `Add`
 
+>[!IMPORTANT]
+>If you do not untick signature validation all events here then you will get issues and no data coming in later. 
 
+>[!TIP]
+>If you are trying this on your own and you get an error during this step it most likely will be because your IAM user premissions are incorrect and Splunk cannot authenticate to SQS and S3.
 
 ![image_tag](/static/10_awsaddon/setup_addon/Image_8.png)
-
 
  Your inputs page should look like this:
 
 ![image_tag](/static/10_awsaddon/setup_addon/Image_9.png)
 
 ##### Congratulations! You have completed setting up your Splunk Add-on for AWS. AWS Config data & Instance Metadata have now been added and is being sent to Splunk. Proceed to the next part of the lab to validate Splunk is receiving data from AWS. 
+
+### Click <a>[Next](/content/Lab1_awsaddon/validate_data.md)</a> to continue or click <a>[Back](/content/Lab1_awsaddon/setup_aws_s3.md) to go back to the previous page</a>
