@@ -8,7 +8,7 @@ This lab will go through the following:
 - Setup a CloudWatch subscription filter to trigger the lambda function 
 - Validate the data is streaming to Splunk
 
-### Architecture Diagram 
+## Architecture Diagram 
 Below is the high level architecture that you will deploy for this lab:
 
 ![image001](/static/30_lambda/lamba-architecture.png)
