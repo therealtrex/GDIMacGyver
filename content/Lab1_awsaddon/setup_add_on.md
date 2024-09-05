@@ -16,7 +16,7 @@ In this lab you will set up the Splunk Add-on for AWS to begin ingesting data in
 
 ### Configure Splunk Add-on for AWS
 - In a new tab navigate to your Splunk environment and log into Splunk.  
-- From the Splunk home screen `select Splunk Add-on for AWS` located on the left navigation bar. See example below.
+- From the Splunk home screen select `Splunk Add-on for AWS` located on the left navigation bar. See example below.
 
 
 ![image_tag](/static/10_awsaddon/setup_addon/Image_1.png)
