@@ -32,6 +32,6 @@ Now `Copy your HEC token to use later` eg notepad.
 
 - Lastly, `copy` your `Splunk Cloud URL` to use later eg scv-shw-87bea8f2733e0f.stg.splunkcloud.com
 
-##### Congratulations on completing this part of the lab. Now we have a Splunk index for storing data and a HEC token we can move onto AWS to start configuring our services there.
+#### Congratulations on completing this part of the lab. Now we have a Splunk index for storing data and a HEC token we can move onto AWS to start configuring our services there.
 
 ### Click <a>[Next](/content/Lab3_lambda/setup_flowlogs.md)</a> to continue or click <a>[Back](/content/Lab3_lambda/index.en.md) to go back a page.</a>
