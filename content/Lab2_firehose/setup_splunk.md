@@ -1,7 +1,7 @@
-## Setting up Splunk for streaming of data. 
+# Setting up Splunk for streaming of data. 
 This first part of the lab will take you through configuring a Http Event Collector (HEC) token to use for Amazon Data Firehose
 
-### Creating a Splunk HEC token for AWS data
+## Creating a Splunk HEC token for AWS data
 - From your Splunk Console select `Settings, Data Inputs`
 - Select `HTTP Event Collector`
 - Select `New Token`
