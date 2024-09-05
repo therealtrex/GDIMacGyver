@@ -14,7 +14,7 @@ This first part of the lab will take you through configuring a Http Event Collec
 - Leave remaining defaults and click `next` at the top of the screen. 
 - For sourcetype click `select` and then click `Select Source Type`
 - Select `aws:cloudtrail`
-- In the index section select the index `aws-data` you for your AWS data. 
+- In the index section select the index `aws-data` for your for your AWS data. 
 - Click `review`, check over your steps. It should look like the image below.
 
 ![image004](/static/20_firehose/Image004.png)
