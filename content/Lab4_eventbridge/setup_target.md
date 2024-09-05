@@ -26,6 +26,6 @@ In this part of the Lab we will setup the EventBridge Targets to configure Splun
 
 - Leave remaining defaults and click `Create` to create the endpoint.
 
-##### You have successfully setup the Eventbridge destination for Splunk target. Lets move on to next lab to setup an EventBridge Rule to ingest GuardDuty events into Splunk
+#### You have successfully setup the Eventbridge destination for Splunk target. Lets move on to next lab to setup an EventBridge Rule to ingest GuardDuty events into Splunk
 
 ### Click <a>[Next](/content/Lab4_eventbridge/setup_rule.md)</a> to continue or click <a>[Back](/content/Lab4_eventbridge/setup_splunk.md) to go back a page.</a>
