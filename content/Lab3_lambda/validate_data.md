@@ -5,7 +5,7 @@ Its time to now validate that the streaming VPC Flow log data for our Lambda fun
 - From the Search bar enter in the search below:
 
 ```text
-    index="aws-data" sourcetype="aws:cloudwatchlogs:vpcflow"
+index="aws-data" sourcetype="aws:cloudwatchlogs:vpcflow"
 ```
 
 >[!NOTE]
@@ -13,6 +13,6 @@ Its time to now validate that the streaming VPC Flow log data for our Lambda fun
 
 ![splunkflowlog](/static/30_lambda/splunkflowlog.png)
 
-##### Congratulations! You have now sucessfully configured VPC Flow logs to send data to Splunk using a Lambda function. This lab is now complete. 
+#### Congratulations! You have now sucessfully configured VPC Flow logs to send data to Splunk using a Lambda function. This lab is now complete. 
 
 ### Click <a>[HOME](/README.md)</a> to now choose another lab or click <a>[Back](/content/Lab3_lambda/setup_subscriptionfilter.md) to go back to the previous page</a>
