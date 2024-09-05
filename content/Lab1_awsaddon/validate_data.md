@@ -5,7 +5,7 @@ In this lab you will validate if the data is ingested & indexed into Splunk succ
 - From the Search bar enter in the search below and click the search button:
 
 ```text
-    index="aws-data" sourcetype="aws:config" OR sourcetype="aws:metadata"
+index="aws-data" sourcetype="aws:config" OR sourcetype="aws:metadata"
 ```
 
 >[!NOTE]
