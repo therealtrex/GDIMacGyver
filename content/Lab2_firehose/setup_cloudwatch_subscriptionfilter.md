@@ -27,4 +27,4 @@ In this part of the lab we will setup the CloudWatch subscription filter on the 
 
 ##### Congratulations, now that you have setup CloudTrail, Amazon DataFirehose and the CloudWatch subscription filter. All that is left to do is verify the data is streaming into Splunk. 
 
-### Click <a>[Next](/content/Lab2_firehose/validate_data.md)</a> to continue or click <a>[Back](/content/Lab2_firehose/setup_firehose.md to go back a page.</a>
+### Click <a>[Next](/content/Lab2_firehose/validate_data.md)</a> to continue or click <a>[Back](/content/Lab2_firehose/setup_firehose.md) to go back a page.</a>
