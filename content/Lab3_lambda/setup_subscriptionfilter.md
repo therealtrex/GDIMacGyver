@@ -14,6 +14,6 @@ In this part of the lab we will configure a subscription filter to trigger off o
 - Name the subscription filter `SplunkVPCSubFilter`
 - Leave remaining defaults and Click `Start streaming`.
 
-##### Congratulations on completing this part of the lab. All that is left it to now verify the data in Splunk!
+#### Congratulations on completing this part of the lab. All that is left it to now verify the data in Splunk!
 
 ### Click <a>[Next](/content/Lab3_lambda/validate_data.md)</a> to continue or click <a>[Back](/content/Lab3_lambda/setup_lambda.md) to go back a page.</a>
