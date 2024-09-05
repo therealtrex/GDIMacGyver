@@ -8,7 +8,7 @@ Its time to now validate that the Amazon EventBridge data is flowing into Splunk
 - From the Search bar enter in the search below:
 
 ```text
-    index=aws-data sourcetype="aws:cloudwatch:guardduty"
+index=aws-data sourcetype="aws:cloudwatch:guardduty"
 ```
 
 >[!NOTE]
@@ -17,6 +17,6 @@ Its time to now validate that the Amazon EventBridge data is flowing into Splunk
 ![splunkguardduty](/static/40_eventbridge/splunk_guardduty.png)
 
 
-##### Congratulations! You have now sucessfully configured Amazon Guard Duty logs through Amazon Eventbridge into Splunk. This lab is now complete.
+#### Congratulations! You have now sucessfully configured Amazon Guard Duty logs through Amazon Eventbridge into Splunk. This lab is now complete.
 
 ### Click <a>[HOME](/README.md)</a> to now choose another lab or click <a>[Back](/content/Lab4_eventbridge/setup_rule.md) to go back to the previous page</a>
