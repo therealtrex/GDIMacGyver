@@ -1,7 +1,7 @@
 ﻿# Adding an additional panel to our dashboard
 Continuing on, let’s make this dashboard a little more useful and add another panel. 
 
--Click on the `Search tab` at the top of the screen to get back to the search screen. `Copy and paste the below search`, with the `time picker set to the last 4 hours`
+- Click on the `Search tab` at the top of the screen to get back to the search screen. `Copy and paste the below search`, with the `time picker set to the last 4 hours`
 
 ```text
 index="aws-data" sourcetype=aws:cloudtrail eventName=Create* OR eventName=Run* OR eventName=Attach* 
