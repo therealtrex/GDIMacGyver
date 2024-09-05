@@ -19,7 +19,9 @@ index="aws-data" sourcetype=aws:cloudtrail eventName=Create* OR eventName=Run* O
   
 ![image_tag](/static/50_data_exploration/Image_9.png)  
 
-Select `AWS GDI Intro Dashboard` (or the dashboard name you used in the previous step), and enter `Outlier Details` in the Panel Title. Click `Save to Dashboard` and then `View Dashboard`.
+- Select `AWS GDI Intro Dashboard` (or the dashboard name you used in the previous step)
+- Enter `Outlier Details` in the Panel Title. 
+- Click `Save to Dashboard` and then `View Dashboard`
 
 ![image_tag](/static/50_data_exploration/Image_10.png)  
   
