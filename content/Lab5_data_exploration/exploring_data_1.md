@@ -9,7 +9,7 @@ First off let's quickly search our data and have a basic look at what's coming i
 - From the Search bar enter in the search below:
 
 ```text
-    index=”aws-data”
+index=”aws-data”
 ```
 The results should look something like the below image. 
 
@@ -72,7 +72,7 @@ Click `Save To Dashboard`, then click `Go To Dashboard`
 
 ![image_tag](/static/50_data_exploration/Image_7.png)  
 
-##### Congratulations! You’ve created your first dashboard. From here, you can change the appearance and layout of your dashboard. Feel free to click ‘Edit’ at the top right of the dashboard to customize your dashboard.
+#### Congratulations! You’ve created your first dashboard. From here, you can change the appearance and layout of your dashboard. Feel free to click ‘Edit’ at the top right of the dashboard to customize your dashboard.
 
 ![image_tag](/static/50_data_exploration/Image_8.png) 
 
