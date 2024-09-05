@@ -31,7 +31,9 @@ index="aws-data" sourcetype=aws:cloudtrail eventName=Create* OR eventName=Run* O
 
 ## Create a Map Visualization
 Now we will create a world map based on non US-based countries
-- Start by entering the following search:
+- Click Search tab
+- Set search time picker to Last 4 hours
+- Enter the following search:
 
 ```text
 index="aws-data" sourcetype="aws:cloudwatchlogs:vpcflow" 
@@ -73,10 +75,10 @@ Feel free to make the color scheme your own by updating the colors or other opti
   
 ![image_tag](/static/50_data_exploration/Image_16.png)  
 
-Your dashboard should now look something like below:
+Save and view your dashboard again. Your dashboard should now look something like below:
 
 ![image_tag](/static/50_data_exploration/Image_17.png)  
 
-##### Congratulations! You have completed this lab. Please proceed to the next lab to explore some already made security dashboards.
+#### Congratulations! You have completed this lab. Please proceed to the next lab to explore some already made security dashboards.
 
 ### Click <a>[Next](/content/Lab5_data_exploration/exploring_aws_security_app.md)</a> to continue or if you have had enough click <a>[HOME](/README.md) to go back home.</a>
