@@ -13,7 +13,7 @@ For this workshop, we developed a serverless application called `splunk-aws-lamb
     -  `SplunkSourceType`: Enter source type `aws:cloudwatchlogs:vpcflow` for VPC Flow Logs.
     -  `ELBCookieName`: Enter `AWSELB` for ELB cookie name.
     -  `SplunkHttpEventCollectorToken`: Enter your HEC token created earlier in the lab.
-    -  `SplunkHttpEventCollectorURL`: Enter the Endpoint URL copied earlier for Splunk eg example https://<splunk-instanceid>.splunk.show:8088 
+    -  `SplunkHttpEventCollectorURL`: Enter the Endpoint URL copied earlier for Splunk eg example https://<splunkcloud-instanceid>.splunk.show:8088 
   
 ![parameters](/static/30_lambda/parameters.png)
 
@@ -23,7 +23,7 @@ For this workshop, we developed a serverless application called `splunk-aws-lamb
 ![physicalid](/static/30_lambda/physical_id.png)
 
 >[!NOTE]
->You can verify your deployment worked correctly by selecting the `Deployments` tabe and checking under the deployment history is says `Create complete`. If this has failed you will need to verify why it failed and try again.
+>You can verify your deployment worked correctly by selecting the `Deployments` tab and checking under the deployment history is says `Create complete`. If this has failed you will need to verify why it failed and try again.
 
 #### Congratulations on completing this part of the lab. Now we have setup our lambda we can configure the subscription filter for VPC Flow logs log group to trigger the lambda function. 
 
