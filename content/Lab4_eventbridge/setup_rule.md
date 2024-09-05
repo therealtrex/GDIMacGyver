@@ -25,8 +25,6 @@ See example below
 - Click `Next`. Enter any tags and Click `Next`.
 - Review the configurations and `click Create rule` to create the rule.
   
-![check_splunk](/static/40_eventbridge/splunk_guardduty.png)
-
 ##### Congrats you have now successfully created EventBridge destination for Splunk and a Rule to ingest GuardDuty Findings as events into Splunk. 
 
 >[!NOTE]
