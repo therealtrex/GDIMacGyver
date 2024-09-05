@@ -22,6 +22,7 @@ Finally in <b>lab 5</b> you will wrap up by exploring some of your ingested data
 > -This workshop is created for target audiences like Cloud Architects, Security Analysts and Splunk Administrators.<br>
 > -The participants are expected to have a general experience with AWS products and services, along with basic knowledge Splunk, Splunk Apps and running Splunk SPL Queries.<br>
 > -This workshop is not inteded to be run as part of a joint AWS and Splunk event. These labs should work in your own AWS envirnoemnt <br>
+> -To make things easier we have already configured the AWS add-on on your Splunk service including an index called `aws-data` for you to use. Please use these are part of the labs. 
 
 >[!IMPORTANT]
 >Please make sure you sign out or use an incognito tab when using your AWS console as you do not want to accidentally use your work/personal AWS account and end up with a bill or get in trouble
