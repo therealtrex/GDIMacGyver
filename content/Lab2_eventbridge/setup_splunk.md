@@ -33,4 +33,4 @@ Now `Copy your HEC token to use later`
 
 #### Congratulations on completing this part of the lab. Now we have a Splunk index for storing data and a HEC token we can move onto AWS to start configuring our services there.
 
-### Click <a>[Next](/content/Lab4_eventbridge/setup_target.md)</a> to continue or click <a>[Back](/content/Lab4_eventbridge/index.en.md) to go back a page.</a>
+### Click <a>[Next](/content/Lab2_eventbridge/setup_target.md)</a> to continue or click <a>[Back](/content/Lab2_eventbridge/index.en.md) to go back a page.</a>

@@ -19,4 +19,4 @@ index=aws-data sourcetype="aws:cloudwatch:guardduty"
 
 #### Congratulations! You have now sucessfully configured Amazon Guard Duty logs through Amazon Eventbridge into Splunk. This lab is now complete.
 
-### Click <a>[HOME](/README.md)</a> to now choose another lab or click <a>[Back](/content/Lab4_eventbridge/setup_rule.md) to go back to the previous page</a>
+### Click <a>[HOME](/README.md)</a> to now choose another lab or click <a>[Back](/content/Lab2_eventbridge/setup_rule.md) to go back to the previous page</a>
