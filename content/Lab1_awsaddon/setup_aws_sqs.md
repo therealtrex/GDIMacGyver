@@ -48,7 +48,7 @@ In this part of the lab you will be setting up and configuring Amazon Simple Que
 
 >[!TIP]
 >You can copy your AWS account id by selecting the drop down arror top right hand side of your AWS console. Then click the copy button next to the Account ID:<xxxx-xxxx-xxxx> <br>
->You can also select your region but click the Region drop down arror top right hand side (next to account one) and copy the text on the right hand side of current region (eg us-east-1)
+>You can also select your region but click the Region drop down arror top right hand side (next to account one) and copy the text on the right hand side of current region (us-west-1)
 
 ```json
 {
