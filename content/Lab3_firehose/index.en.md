@@ -12,4 +12,4 @@ Below is the architecture pattern used for this lab:
 
 ![image001](/static/20_firehose/Image001.png)
 
-### Click <a>[Next](/content/Lab2_firehose/setup_splunk.md)</a> to continue or click <a>[Back](/README.md) to go back to the beginning</a>
+### Click <a>[Next](/content/Lab3_firehose/setup_splunk.md)</a> to continue or click <a>[Back](/README.md) to go back to the beginning</a>
