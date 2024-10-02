@@ -37,11 +37,11 @@ Below are the links to each of the labs
 
 <a>[LAB1 - EC2 metadata and AWS Config logs to Splunk via AWS add-on PULL method](/content/Lab1_awsaddon/index.en.md) </a>
 
-<a>[LAB2 - CloudTrail logs to Splunk via Amazon Data Firehose PUSH method ](/content/Lab2_firehose/index.en.md) </a>
+<a>[LAB2 - Amazon EventBridge notification using native EventBridge PUSH method ](/content/Lab2_eventbridge/index.en.md) </a>
 
-<a>[LAB3 - VPC Flow logs to Splunk via Amazon Lambda PUSH method ](/content/Lab3_lambda/index.en.md) </a>
+<a>[LAB3 - CloudTrail logs to Splunk via Amazon Data Firehose PUSH method ](/content/Lab3_firehose/index.en.md) </a>
 
-<a>[LAB4 - Amazon EventBridge notification using native EventBridge PUSH method ](/content/Lab4_eventbridge/index.en.md) </a>
+<a>[LAB4 - VPC Flow logs to Splunk via Amazon Lambda PUSH method ](/content/Lab4_lambda/index.en.md) </a>
 
 <a>[LAB5 - Explore our data using Splunk ](/content/Lab5_data_exploration/exploring_data_1.md) </a>
 
