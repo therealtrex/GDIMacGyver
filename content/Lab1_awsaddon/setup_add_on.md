@@ -75,7 +75,7 @@ Next we want to configure AWS Config input.
 
 - Enter in the Name of: `SplunkWorkshopConfig`
 - Select the same account we selected earlier: `SplunkWorkshopAWS`
-- Select the same `region` we used in the previous step for EC2 metadata. eg US East (N. Virginia). 
+- Select the same `region` we used in the previous step for EC2 metadata. eg US West (N. California) us-west-1. 
 - Under SQS Queue Name, select `SplunkWorkshopQueue` that we created earlier. 
 - `Untick` the `Signature Validate All Events` option
 - Set the index as `aws-data`
