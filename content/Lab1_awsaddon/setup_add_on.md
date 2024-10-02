@@ -49,7 +49,7 @@ You should now see a new configuration named `SplunkWorkshopAWS`. See example be
 
 - On the Add Metadata screen enter in a name of: `SplunkWorkshopMetadata`
 - Select the `SplunkWorkshopAWS` account you created earlier.
-- From AWS Regions select the `region` you are using for this lab (not sure? Ask your instructor) eg US East (N. Virginia)
+- From AWS Regions select the `region` you are using for this lab (not sure? Ask your instructor) eg US West (N. California) us-west-1.
 - Under APIs/Internal (in seconds), select `Clear All`
 - Expand the `EC2 arrow` and `select all EC2 options` while also changing the `frequency from 3600 to 300`. See example below
 
