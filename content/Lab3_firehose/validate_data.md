@@ -15,4 +15,4 @@ index="aws-data" sourcetype="aws:cloudtrail"
 
 #### Congratulations! You have now sucessfully configured your Splunk Add-on for AWS and have instance metadata & AWS Config data in Splunk. 
 
-### Click <a>[HOME](/README.md)</a> to now choose another lab or click <a>[Back](/content/Lab2_firehose/setup_cloudwatch_subscriptionfilter.md) to go back to the previous page</a>
+### Click <a>[HOME](/README.md)</a> to now choose another lab or click <a>[Back](/content/Lab3_firehose/setup_cloudwatch_subscriptionfilter.md) to go back to the previous page</a>
