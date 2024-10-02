@@ -27,4 +27,4 @@ For this workshop, we developed a serverless application called `splunk-aws-lamb
 
 #### Congratulations on completing this part of the lab. Now we have setup our lambda we can configure the subscription filter for VPC Flow logs log group to trigger the lambda function. 
 
-### Click <a>[Next](/content/Lab3_lambda/setup_subscriptionfilter.md)</a> to continue or click <a>[Back](/content/Lab3_lambda/setup_flowlogs.md) to go back a page.</a>
+### Click <a>[Next](/content/Lab4_lambda/setup_subscriptionfilter.md)</a> to continue or click <a>[Back](/content/Lab4_lambda/setup_flowlogs.md) to go back a page.</a>

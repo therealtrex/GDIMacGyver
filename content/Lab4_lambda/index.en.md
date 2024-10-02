@@ -13,4 +13,4 @@ Below is the high level architecture that you will deploy for this lab:
 
 ![image001](/static/30_lambda/lamba-architecture.png)
 
-### Click <a>[Next](/content/Lab3_lambda/setup_splunk.md)</a> to continue or click <a>[Back](/README.md) to go back to the beginning</a>
+### Click <a>[Next](/content/Lab4_lambda/setup_splunk.md)</a> to continue or click <a>[Back](/README.md) to go back to the beginning</a>

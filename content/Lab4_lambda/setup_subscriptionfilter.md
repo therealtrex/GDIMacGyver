@@ -16,4 +16,4 @@ In this part of the lab we will configure a subscription filter to trigger off o
 
 #### Congratulations on completing this part of the lab. All that is left it to now verify the data in Splunk!
 
-### Click <a>[Next](/content/Lab3_lambda/validate_data.md)</a> to continue or click <a>[Back](/content/Lab3_lambda/setup_lambda.md) to go back a page.</a>
+### Click <a>[Next](/content/Lab4_lambda/validate_data.md)</a> to continue or click <a>[Back](/content/Lab4_lambda/setup_lambda.md) to go back a page.</a>

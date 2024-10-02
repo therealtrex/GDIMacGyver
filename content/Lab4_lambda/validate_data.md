@@ -15,4 +15,4 @@ index="aws-data" sourcetype="aws:cloudwatchlogs:vpcflow"
 
 #### Congratulations! You have now sucessfully configured VPC Flow logs to send data to Splunk using a Lambda function. This lab is now complete. 
 
-### Click <a>[HOME](/README.md)</a> to now choose another lab or click <a>[Back](/content/Lab3_lambda/setup_subscriptionfilter.md) to go back to the previous page</a>
+### Click <a>[HOME](/README.md)</a> to now choose another lab or click <a>[Back](/content/Lab4_lambda/setup_subscriptionfilter.md) to go back to the previous page</a>

@@ -25,4 +25,4 @@ In this Lab we will setup VPC Flow logs in a VPC with CloudWatch Logs as a desti
 
 #### Congratulations on completing this part of the lab. Now we have VPC flow logs putting logs in CloudWatch we can setup a subscription filter to trigger off our Lambda function.
 
-### Click <a>[Next](/content/Lab3_lambda/setup_lambda.md)</a> to continue or click <a>[Back](/content/Lab3_lambda/setup_splunk.md) to go back a page.</a>
+### Click <a>[Next](/content/Lab4_lambda/setup_lambda.md)</a> to continue or click <a>[Back](/content/Lab4_lambda/setup_splunk.md) to go back a page.</a>
